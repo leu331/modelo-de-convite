@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    overflow: hidden;
+    color: var(--text-body);
+}
+
+:root {
+
+    /* Colors */
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1d6fb6;
+
+    --danger: #ff5959;
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    --text-body: #C8CDD0;
+    --text-h: #F9F9F9;
+
+    /*fonts*/
+    --logo: "Lecherli One" 400 2.5rem var(--font-family);
+    --h-md: "Baloo 2", sans-serif 700 1.75rem var(--font-family);
+    --h-sm: "Baloo 2", sans-serif 700 1.125rem var(--font-family);
+
+    --body-md: "Open Sans", sans-serif 500 1rem var(--font-family); 
+    --body-sm: "Open Sans", sans-serif 500 .875rem var(--font-family);
+    --body-xs: "Open Sans", sans-serif 500 .75rem var(--font-family);
+
+}

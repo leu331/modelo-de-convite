@@ -1,0 +1,171 @@
+fieldset {
+    margin-top: 1.5rem;
+    border: none;
+
+    display: grid;
+    gap: 1.5rem;
+
+   font-size: .9rem;
+   font-family: "Open Sans";
+   font-weight: 400;
+   color: var(--text-body);
+}
+
+label {
+    display: block;
+    margin-bottom: .6rem; 
+    font-family: "Open Sans";
+    font-size: .75rem;
+    font-weight: 400;
+
+}
+
+label#im {
+        margin-top: .5rem; 
+}
+
+
+
+
+input, textarea, select, button {
+    appearance: none;
+    width: 100%;
+    border: 1px solid var(--input-stroke);
+    /* outline: 1px solid var(--stroke-default); */
+    
+    
+    background-color: var(--input-base);
+    color: var(--input-placeholder);
+    border-radius: .5rem;
+    padding: .75rem 1rem;
+}
+
+input:focus {
+    outline: 1px solid var(--brand-light);
+    outline-offset: .1px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: .5rem;
+    
+}
+
+.flex-4 {
+
+    all: unset;
+    display: flex;
+    gap: .2rem; */
+    max-width: 100%;
+}
+
+.flex-5 {
+    padding-top: s2rem;
+    justify-items: center;
+    flex: .5;
+}
+
+.flex-6 {
+    position: relative;
+    display: flex;
+    
+    #capa {
+        position: absolute;
+        left: 15rem
+    }
+}
+.flex-8 {
+    display: flex;
+    span {
+        position: absolute;
+        left: 7.5rem;
+        top: .3rem
+    }
+}
+
+
+textarea {
+    appearance: none;
+    overflow: auto;
+    resize: none;
+    color: ;
+}
+
+::placeholder {
+   font-family: "Open Sans";
+font-size: 1rem;
+color: var(--input-placeholder);
+}
+
+
+.customization {
+    input#azul {
+        background-color: var(--brand-light);
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#roxo {
+        background-color: #6A59FF;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#roxo1 {
+        background-color: #b259ff;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#rosa {
+        background-color: #ff59f9;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#rosa-choque {
+        background-color: #ff598b;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#vermelho {
+        background-color: #ff5959;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#laranja {
+        background-color: #ff8b59;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#amarelo {
+        background-color: #ffcd59;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#verde {
+        background-color: #f1ff59;
+        border: 3px solid var(--shape-button);
+    }
+    
+    input#verde-claro {
+        background-color: #59ff91;
+        border: 3px solid var(--shape-button);
+    }
+}
